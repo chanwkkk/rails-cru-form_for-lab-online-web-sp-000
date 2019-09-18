@@ -9,6 +9,9 @@ class ArtistsController < ApplicationController
   end
 
   def edit
+  end
+
+  def update
     @artist=Artist.find(params[:id])
   end
 
