@@ -21,7 +21,7 @@ class SongsController < ApplicationController
     @song=Song.create(genre_params)
     redirect_to song_path(@song)
   end
-Song
+
   private
 
   def song_params
