@@ -9,6 +9,7 @@ class ArtistsController < ApplicationController
   end
 
   def edit
+    @artist=Artist.new
   end
 
   def update
